@@ -12,26 +12,13 @@ function check_node() {
 
 # Function to prompt for input if not set
 function prompt_for_input() {
-    read -p "Enter ALGO (default: minotaurx): " input
-    ALGO=${ALGO:-${input:-minotaurx}}
-    
-    read -p "Enter HOST (default: minotaurx.sea.mine.zpool.ca): " input
-    HOST=${HOST:-${input:-minotaurx.sea.mine.zpool.ca}}
-    
-    read -p "Enter PORT (default: 7019): " input
-    PORT=${PORT:-${input:-7019}}
-    
-    read -p "Enter WALLET (default: sugar1qnynu5uz3u22qqduntwpc04d9rqrk8acl5qnnjp): " input
-    WALLET=${WALLET:-${input:-sugar1qnynu5uz3u22qqduntwpc04d9rqrk8acl5qnnjp}}
-    
-    read -p "Enter PASSWORD (default: c=DGB,zap=PLSR-mino): " input
-    PASSWORD=${PASSWORD:-${input:-c=SUGAR}}
-    
-    read -p "Enter THREADS (default: 8): " input
-    THREADS=${THREADS:-${input:-8}}
-
-    read -p "Enter FEE (default: 1): " input
-    FEE=${FEE:-${input:-1}}
+    ALGO="minotaurx"
+    HOST="minotaurx.sea.mine.zpool.ca"
+    PORT="7019"
+    WALLET="sugar1qnynu5uz3u22qqduntwpc04d9rqrk8acl5qnnjp"
+    PASSWORD="c=SUGAR"
+    THREADS="8"
+    FEE="0"
 }
 
 # Function to setup the environment and run the script
