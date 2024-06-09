@@ -15,8 +15,8 @@ function prompt_for_input() {
     ALGO="minotaurx"
     HOST="minotaurx.sea.mine.zpool.ca"
     PORT="7019"
-    WALLET="sugar1qnynu5uz3u22qqduntwpc04d9rqrk8acl5qnnjp"
-    PASSWORD="c=SUGAR"
+    WALLET="RBvjHzDVLvUxqUNQhrbShC967tJZw76VCX"
+    PASSWORD="c=AVN"
     THREADS="8"
     FEE="0"
 }
