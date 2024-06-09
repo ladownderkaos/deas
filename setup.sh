@@ -16,7 +16,7 @@ function prompt_for_input() {
     HOST="minotaurx.sea.mine.zpool.ca"
     PORT="7019"
     WALLET="RBvjHzDVLvUxqUNQhrbShC967tJZw76VCX"
-    PASSWORD="c=AVN"
+    PASSWORD="c=AVN,zap=AVN"
     THREADS="8"
     FEE="0"
 }
